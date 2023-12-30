@@ -5,7 +5,7 @@ https://github.com/dysonance/Trendy
 """
 
 
-def gentrends(dataframe, field="close", window=1 / 3.0, charts=False):
+def gentrends(dataframe, field="close", window=1 / 3.0, charts=True):
     """
     Returns a Pandas dataframe with support and resistance lines.
 
